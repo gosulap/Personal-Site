@@ -1,2 +1,2 @@
 # Personal-Site
-Minimalist personal website. Pure HTML 
+Minimalist personal website. Pure HTML and CSS
