@@ -1,2 +1,2 @@
 # Personal-Site
-Minimalist personal website. Pure HTML and CSS        Check it out at https://pradhitgosula.com/
+Minimalist personal website. Pure HTML and CSS. The site can be found at https://pradhitgosula.com/
