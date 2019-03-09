@@ -1,5 +1,5 @@
 html{
-    background: url(../images/background.jpg);
+    background: url(../images/background2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,8 +14,8 @@ html{
     padding: 40px;
     color:white; 
     margin: 0 auto; 
-    margin-top: 5%; 
-    text-align: center; 
+    margin-top: 2%; 
+    text-align: center;  
 }
 
 .prof-pic{
