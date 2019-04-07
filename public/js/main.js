@@ -6,7 +6,8 @@ function typeWriter() {
   {
     var str = 'CSE | The Ohio State University';
   }
-  else{
+  else
+  {
     var str = 'Computer Science | The Ohio State University';
   }
   var typeTimer = setInterval(function() {
