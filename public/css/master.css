@@ -36,6 +36,8 @@ h1{
 h5{
     font-weight: 200;
     letter-spacing: 1;
+    font: 0.8em 'Andale Mono', Consolas, 'Courier New';
+    text-align: left; 
 }
 
 p{

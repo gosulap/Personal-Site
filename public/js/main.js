@@ -1,13 +1,33 @@
-var i = 0; 
-var txt = 'Computer Science Student | The Ohio State University'; /* The text */
-var speed = 42; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("description").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  var p = document.getElementById('description');
+  var n = 0;
+  if(screen.width < 1000)
+  {
+    var str = 'CSE | The Ohio State University';
   }
+  else{
+    var str = 'Computer Science | The Ohio State University';
+  }
+  var typeTimer = setInterval(function() {
+    n = n + 1;
+    p.innerHTML = "$ " + str.slice(0, n);
+    if (n === str.length) {
+      clearInterval(typeTimer);
+      p.innerHTML = "$ " + str;
+      n = 0;
+      setInterval(function() {
+  
+        if (n === 0) {
+          p.innerHTML = "$ " + str + "|"
+          n = 1;
+        } else {
+          p.innerHTML = "$ " + str
+          n = 0;
+        };
+      }, 500);
+    };
+  }, 60)
 }
 
 
