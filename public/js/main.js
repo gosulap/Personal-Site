@@ -2,12 +2,10 @@
 function typeWriter() {
   var p = document.getElementById('description');
   var n = 0;
-  if(screen.width < 1000)
-  {
+  if(screen.width < 1000) {
     var str = 'CSE | The Ohio State University';
   }
-  else
-  {
+  else{
     var str = 'Computer Science | The Ohio State University';
   }
   var typeTimer = setInterval(function() {
